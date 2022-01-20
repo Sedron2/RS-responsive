@@ -1,0 +1,65 @@
+body {
+    background-image: url('images/fondo1-1.jpg');
+    zoom: 90%;
+}
+
+.bg-rsec {
+    background-color: #ffbe00;
+}
+
+.nav-link{
+    color: black;
+    font-size: 17px;
+}
+
+.nav-link:hover{
+    transition-duration: .5s;
+    color: #fff !important;
+}
+
+#nav_img{
+    height: 70px;
+    width: 100%;
+}
+
+.s-img{
+    width: 290px !important;
+}
+
+img{
+    user-select: none;
+}
+
+@media (max-width: 992px){
+    nav {
+        padding: 0;
+        background-color: #fff !important;
+    }
+
+    .nav-link:hover{
+        color: #ffbe00 !important;
+        transition-duration: .3s;
+    }
+    .nav-link{
+        font-size: 19px;
+    }
+}
+
+/* Not important */
+
+#footer > div {
+    background-color: #333333;
+}
+
+
+#footer *::selection{
+    background-color: #ffbf0052!important;
+}
+
+nav *{
+    user-select: none;
+}
+
+*::selection{
+    background-color: #d8d8d8;
+}
